@@ -14,7 +14,7 @@ public class Main { // This defines a class named Main, where the program will s
 
         // Booking attempts
         Elisabeth.book(flat); // Elisabeth tries to book the flat
-        Aaron.book(flat); // Aaron tries but fails because Elisabeth already booked it
+        Aaron.book(flat); // Aaron tries but fails because someone else has already booked it
         Kobe.book(villa); // Kobe successfully books the villa
 
         System.out.println("\nBooking Status"); // Prints a blank line and "Booking Status"
