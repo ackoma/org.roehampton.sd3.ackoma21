@@ -6,8 +6,9 @@ class Hotel extends Accommodation { // Hotel inherits Accommodation
         super(id, name, location, price); // Calls parent constructor
         this.stars = stars; // Stores number of stars
     }
-
+@Override 
     public String toString() { // Custom text display
         return "Hotel → " + super.toString() + " | Stars: " + stars;
     }
+
 }
