@@ -6,8 +6,9 @@ class Villa extends Accommodation { // Villa also inherits from Accommodation
         super(id, name, location, price); // Calls parent constructor
         this.pool = pool; // Sets pool option
     }
-
+@Override 
     public String toString() { // Custom text display
         return "Villa → " + super.toString() + " | Pool: " + (pool ? "Yes" : "No");
     }
 }
+
