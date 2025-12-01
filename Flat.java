@@ -6,8 +6,9 @@ class Flat extends Accommodation { // Flat inherits from Accommodation
         super(id, name, location, price); // Calls the parent class constructor
         this.kitchen = kitchen; // Sets kitchen availability
     }
-
+@Override 
     public String toString() { // Overrides parent's display method
         return "Flat → " + super.toString() + " | Kitchen: " + (kitchen ? "Yes" : "No");
     }
 }
+
